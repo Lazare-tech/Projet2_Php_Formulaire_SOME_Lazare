@@ -31,10 +31,11 @@
             //  OR empty($_POST['Mot_de_passe'])){
             //   echo 'Remplissez tous les champs svp!!!';
               
-            //  } else if(isset($_POST['submit'])) {
-       
-            //  echo 'Nom:'.''.$Nom.'<br>Prenom:'.''.$Prenom.'<br>Email:'.''.$Email.'<br>Nom utilisateur:'.''.$nom_utilisateur.'<br>Mot de passe:'.''.$Mot_de_passe;  
-            //  }
+              if (isset($_POST['submit'])) {
+                  
+             echo 'Nom:'.''.$Nom.'<br>Prenom:'.''.$Prenom.'<br>Age:'.''.$Age;  
+             }
+          
           
       ?>
     <div class="justify-content-center">
@@ -45,7 +46,7 @@
 
           <div class="card bg-glass border-0 ">
             <div class="card-body px-md-0  border-0">
-              <form action="" method="post">
+              <form action="index.php" method="post">
                 <!-- 2 column grid layout with text inputs for the first and last names -->
                 <div class="row">
                   <div class="col-md-12">
