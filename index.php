@@ -52,7 +52,7 @@
                   <div class="col-md-12">
                     <div class="form-outline">
                       <input type="text" id="form3Example1" class="form-control" name="Nom"
-                        value="<?php echo $Nom ?>" />
+                         />
                       <label class="form-label" for="form3Example1">Nom</label>
                     </div>
                   </div>
@@ -63,7 +63,7 @@
 
                     <div class="form-outline">
                       <input type="text" id="form3Example2" class="form-control" name="Prenom"
-                        value="<?php echo $Prenom?>" />
+                         />
                       <label class="form-label" for="form3Example2">Prenom</label>
                     </div>
                   </div>
@@ -74,7 +74,7 @@
                   <div class="col-md-12">
                     <div class="form-outline">
                       <input type="number" id="form3Example2" class="form-control" name="Age"
-                        value="<?php echo $Age ?>" />
+                        />
                       <label class="form-label" for="form3Example2">Age</label>
                     </div>
                   </div>
